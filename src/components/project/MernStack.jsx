@@ -7,22 +7,9 @@ const mernData = [
     {
         id: 1,
         stack: 'JS, REACT, & TAILWIND',
-        name: 'Capon Piggery & Meat',
-        description: 'Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;'
-    },
-    {
-        id: 2,
-        stack: 'JS',
-        name: 'Photo Gallery',
-        description: 'Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;'
-    },
-    {
-        id: 3,
-        stack: 'JS',
-        name: 'My old Portofolio',
-        description: 'Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;'
-    },
-   
+        name: 'The New Portfolio',
+        description: "The site is built in to showcase my passion and skills in web development. I used React and Tailwind to build it."
+    }
 ];
 export default function Html(props){
     const renderMernData = mernData.map(item => {
