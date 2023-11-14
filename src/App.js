@@ -26,6 +26,8 @@ import imgCardBanner1 from './assets/images/card-laptop-2.webp';
 // import Projects from "./pages/nav/Projects";
 
 import Projects from "./pages/nav/Projects";
+// Footer page
+import Footer from "./pages/Footer";
 
 const blogData = [
   {
@@ -90,8 +92,8 @@ export default function App() {
   }
 
   return (
+    <div className={`${lightMode ? 'bg-white' : 'bg-black'}`}>
     <BrowserRouter>
-      <div className={`${lightMode ? 'bg-white' : 'bg-black'}`}>
         <Routes>
 
           <Route path="/" element={<HeaderLayout toggleMode={toggleMode} lightMode={lightMode}/>}>
@@ -108,14 +110,14 @@ export default function App() {
               <Route path="html" element={<Html lightMode={lightMode} />} />
               <Route path="javascript" element={<Javascript lightMode={lightMode} />} />
               <Route path="mern" element={<MernStack lightMode={lightMode} />} />
+              <Route path="footer" element={<Footer lightMode={lightMode} />} />
             </Route>
             
           </Route>
           
         </Routes>
-      </div>
     </BrowserRouter>
-    
+    </div>
   );
 }
 

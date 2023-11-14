@@ -8,7 +8,7 @@ export default function ExperienceCard(props){
             <div className="w-fit border border-gray-500 p-2 font-semibold rounded"> 
                 <h3 className="text-btnB">{props.item.stack}</h3>
             </div>
-            <a href={url} target="_blank"  rel="noopener noreferrer" className="text-blue-500 hover:underline cursor-pointer">
+            <a href={url} target="_blank"  rel="noopener noreferrer" className="text-blue-500 underline md:no-underline md:hover:underline cursor-pointer">
                 <h2 className="font-bold text-gray-200 text-xl">{props.item.name}</h2>
             </a>
             <p className="text-gray-300 md:text-lg">{props.item.description}</p>

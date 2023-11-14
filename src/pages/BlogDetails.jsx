@@ -6,6 +6,7 @@ import LikeComments from "../components/blogs/LikeComments";
 
 import blog1 from '../assets/images/card-laptop-1.webp';
 import blog2 from '../assets/images/card-laptop-2.webp';
+import Footer from "./Footer";
 
 const blogImages = [blog1, blog2];
 
@@ -52,7 +53,8 @@ export default function BlogDetails(props){
                     <p className="indent-10 text-txt pb-4 ">{blog.conclusion}</p>
                     <LikeComments views={blog.views} comment={blog.comments}/>
                 </div>
-            </div>       
+            </div>  
+            <Footer />
         </>
     );
 }
