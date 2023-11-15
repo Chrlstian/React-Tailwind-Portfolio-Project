@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import Footer from '../Footer';
 // import Footer from '../Footer';
-
+import DownloadButton from '../../components/DownloadResume';
 
 export default function Home(props){
     
@@ -17,7 +17,8 @@ export default function Home(props){
                 <p className='text-center text-txt md:text-lg'>"Hi, I'm Christian, an entry level software developer excited to build amazing things for you."</p>
                 <div className='flex flex-col gap-3 sm:flex-row sm:justify-between hero-btn-lg'>
                     <Link to="projects" className='hero-btn-0 sm:w-full lg:w-full lg:text-lg text-center'><button>View Projects</button></Link>
-                    <button className='hero-btn-1 sm:w-full lg:w-full lg:text-lg'>Resume</button>
+                    <DownloadButton />
+                    {/* <button className='hero-btn-1 sm:w-full lg:w-full lg:text-lg'>Download Resume</button> */}
                 </div>
             </div>
             <div className="hidden hero-md-img">
