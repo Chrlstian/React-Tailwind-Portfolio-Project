@@ -1,4 +1,5 @@
 import React from 'react';
+import downloadIcon from '../assets/images/download-icon.webp';
 
 const DownloadButton = () => {
   const handleDownload = async () => {
@@ -19,12 +20,10 @@ const DownloadButton = () => {
   };
 
   return (
-    <button
-        className='hero-btn-1 sm:w-full lg:w-full lg:text-lg'
-        onClick={handleDownload}
-    >
-      Download Resume
-    </button>
+    <div className='flex gap-4 justify-center cursor-pointer hero-btn-1 sm:w-full lg:w-full lg:text-lg' onClick={handleDownload}>
+      <p>Download Resume</p>
+      <img src={downloadIcon} alt="download icon" />
+    </div>
   );
 };
 

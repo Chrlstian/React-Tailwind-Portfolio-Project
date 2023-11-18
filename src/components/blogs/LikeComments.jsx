@@ -15,7 +15,6 @@ export default function LikeComments(props){
 
         setLike(prevLike => !prevLike);
         setNum( prevNum => prevNum + likeNumber );
-        // setNum(num + likeNumber);
 
     }
    

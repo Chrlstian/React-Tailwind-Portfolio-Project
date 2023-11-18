@@ -104,7 +104,7 @@ export default function App() {
             <Route path="blogs/:id" element={<BlogDetails lightMode={lightMode} blogData={blogData}/>} />
 
             <Route path="projects" element={<ProjectLayout lightMode={lightMode}/>} >
-              <Route index element={<Projects />} />
+              <Route index element={<Projects lightMode={lightMode}/>} />
               <Route path="all" element={<All lightMode={lightMode} />} />
               <Route path="wordpress" element={<Wordpress lightMode={lightMode} />} />
               <Route path="html" element={<Html lightMode={lightMode} />} />

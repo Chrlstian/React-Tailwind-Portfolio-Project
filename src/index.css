@@ -42,7 +42,7 @@ code {
   @apply flex flex-col gap-10 p-4 pt-8 h-screen;
 }
 .hero-info-md {
-  @apply md:static md:gap-10;
+  @apply md:static md:gap-16;
 }
 
 /* Hero.jsx md: 768px screen */
