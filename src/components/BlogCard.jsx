@@ -7,8 +7,8 @@ export default function BlogCard(props){
     return(
         <>
         <div className="p-2 md:p-8 md:pt-0 lg:p-8 xl:p-40 xl:pt-8 xl:pb-8">
-        <div className="p-2 hover:border hover:border-gray-500 rounded">
-            <div className="max-w-screen-2xl md:flex md:items-center 2xl:m-auto">
+            <div className="p-2 hover:border hover:border-gray-500 rounded">
+                <div className="max-w-screen-2xl md:flex md:items-center 2xl:m-auto">
                     <div className="w-full">
                         <img className="rounded border border-txt" src={props.item.imgBanner} alt="banner"/>
                     </div>
@@ -25,7 +25,7 @@ export default function BlogCard(props){
             </div>
         </div>
         <div className="mt-8 mb-8">
-                <hr className="w-full max-w-xs m-auto border border-txt"/>
+            <hr className="w-full max-w-xs m-auto border border-txt"/>
         </div>
         </>
     );
