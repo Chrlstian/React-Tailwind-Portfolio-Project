@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/christianbenson-react-tailwind-portfolio/static/css/main.8a0d7725.css",
+    "main.js": "/christianbenson-react-tailwind-portfolio/static/js/main.d5801dbe.js",
+    "static/js/787.57ab2a38.chunk.js": "/christianbenson-react-tailwind-portfolio/static/js/787.57ab2a38.chunk.js",
+    "static/media/Hero-right-profile.webp": "/christianbenson-react-tailwind-portfolio/static/media/Hero-right-profile.2be94c4baf73d44ee52f.webp",
+    "static/media/card-laptop-2.webp": "/christianbenson-react-tailwind-portfolio/static/media/card-laptop-2.e4325054930b450b26c6.webp",
+    "static/media/linked in logo.webp": "/christianbenson-react-tailwind-portfolio/static/media/linked in logo.f851ec1886cf09cb0b67.webp",
+    "static/media/card-laptop-1.webp": "/christianbenson-react-tailwind-portfolio/static/media/card-laptop-1.dc9ab6e9dbf8d2a9776f.webp",
+    "static/media/Christian Profile.jpg": "/christianbenson-react-tailwind-portfolio/static/media/Christian Profile.40048985324dbf5dcf01.jpg",
+    "static/media/facebook.png": "/christianbenson-react-tailwind-portfolio/static/media/facebook.01a470d813915c298403.png",
+    "static/media/gmail.png": "/christianbenson-react-tailwind-portfolio/static/media/gmail.a2f2146f929409405da0.png",
+    "static/media/twitter.webp": "/christianbenson-react-tailwind-portfolio/static/media/twitter.1c9cecfa118bacfa4ff2.webp",
+    "static/media/github logo.webp": "/christianbenson-react-tailwind-portfolio/static/media/github logo.39b33b226b66d88e965d.webp",
+    "static/media/like-1.webp": "/christianbenson-react-tailwind-portfolio/static/media/like-1.9157c1838d6dc8bcd389.webp",
+    "index.html": "/christianbenson-react-tailwind-portfolio/index.html",
+    "static/media/like-2.webp": "/christianbenson-react-tailwind-portfolio/static/media/like-2.f01520ef2bb48e74f94f.webp",
+    "static/media/light mode.webp": "/christianbenson-react-tailwind-portfolio/static/media/light mode.172928fddd6a81bc2429.webp",
+    "static/media/dark mode.webp": "/christianbenson-react-tailwind-portfolio/static/media/dark mode.6541838254b5db648888.webp",
+    "static/media/download-icon.webp": "/christianbenson-react-tailwind-portfolio/static/media/download-icon.bcdaaca1cf7922a703f2.webp",
+    "main.8a0d7725.css.map": "/christianbenson-react-tailwind-portfolio/static/css/main.8a0d7725.css.map",
+    "main.d5801dbe.js.map": "/christianbenson-react-tailwind-portfolio/static/js/main.d5801dbe.js.map",
+    "787.57ab2a38.chunk.js.map": "/christianbenson-react-tailwind-portfolio/static/js/787.57ab2a38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a0d7725.css",
+    "static/js/main.d5801dbe.js"
+  ]
+}
