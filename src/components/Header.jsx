@@ -6,6 +6,7 @@ import imgLightMode from '../assets/images/dark mode.webp';
 
 export default function Header(props){
 
+    // state to show and hide the humburger icon in the header
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {

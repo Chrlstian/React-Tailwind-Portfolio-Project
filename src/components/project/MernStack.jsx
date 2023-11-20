@@ -3,14 +3,9 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import ExperienceCard from '../../components/ExperienceCard';
 
-const mernData = [
-    {
-        id: 1,
-        stack: 'JS, REACT, & TAILWIND',
-        name: 'The New Portfolio',
-        description: "The site is built in to showcase my passion and skills in web development. I used React and Tailwind to build it."
-    }
-];
+// data/ mern data
+import mernData from '../../data/mernData';
+
 export default function Html(props){
     const renderMernData = mernData.map(item => {
         return <ExperienceCard key={item.id} item={item} lightMode={props.lightMode}/>

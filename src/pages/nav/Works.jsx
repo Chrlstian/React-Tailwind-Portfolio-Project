@@ -1,6 +1,5 @@
 import React from 'react';
 import WorkCard from '../../components/WorkCard';
-import Footer from '../Footer';
 
 const work = [
     {
@@ -29,7 +28,6 @@ export default function Work(props){
         <>
             <h2 className={`text-center font-bold text-2xl mt-10 md:text-3xl lg:text-4xl xl:text-5xl ${props.lightMode ? 'text-primary' : 'text-gray-200'}`}>My Work Experience</h2>
             {renderWorkExp}
-            <Footer />
         </>
     
     );
