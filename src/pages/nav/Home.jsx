@@ -15,7 +15,7 @@ export default function Home(props){
                 </div>
             </div>
             <div className="hidden hero-md-img">
-                <img className="lg:w-full lg:h-65 xl:pr-20" src={require('../../assets/images/Hero-right-profile.webp')} alt='Christian Benson B. Capon' loading='lazy' />
+                <img className="lg:w-full lg:h-65 xl:pr-20" src={require('../../assets/images/Hero-right-profile.webp')} alt='Christian Benson B. Capon' loading='lazy'/>
             </div>
         </div>
         </>  

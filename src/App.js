@@ -36,7 +36,7 @@ export default function App() {
 
   return (
     <div className={`${lightMode ? 'bg-white' : 'bg-black'}`}>
-    <BrowserRouter>
+    <BrowserRouter basename="/React-Tailwind-Portfolio-Project">
         <Routes>
 
           <Route path="/" element={<HeaderLayout toggleMode={toggleMode} lightMode={lightMode}/>}>
