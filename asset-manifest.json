@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Tailwind-Portfolio-Project/static/css/main.49d91bb2.css",
-    "main.js": "/React-Tailwind-Portfolio-Project/static/js/main.2f037dc9.js",
+    "main.css": "/React-Tailwind-Portfolio-Project/static/css/main.2419b01a.css",
+    "main.js": "/React-Tailwind-Portfolio-Project/static/js/main.d0959bfe.js",
     "static/js/787.57ab2a38.chunk.js": "/React-Tailwind-Portfolio-Project/static/js/787.57ab2a38.chunk.js",
     "static/media/Hero-right-profile.webp": "/React-Tailwind-Portfolio-Project/static/media/Hero-right-profile.2be94c4baf73d44ee52f.webp",
     "static/media/treecuttingservices.webp": "/React-Tailwind-Portfolio-Project/static/media/treecuttingservices.b5b73278783220942846.webp",
     "static/media/card-laptop-2.webp": "/React-Tailwind-Portfolio-Project/static/media/card-laptop-2.e4325054930b450b26c6.webp",
     "static/media/edivalve.webp": "/React-Tailwind-Portfolio-Project/static/media/edivalve.f018caf10c23bb2978c5.webp",
+    "static/media/cert-7.webp": "/React-Tailwind-Portfolio-Project/static/media/cert-7.64cc1218e7656f9c53a4.webp",
+    "static/media/cert-4.webp": "/React-Tailwind-Portfolio-Project/static/media/cert-4.29bf428831d0bb2d7921.webp",
+    "static/media/cert-2.webp": "/React-Tailwind-Portfolio-Project/static/media/cert-2.9bdac4e2197c89988fc0.webp",
+    "static/media/cert-8.webp": "/React-Tailwind-Portfolio-Project/static/media/cert-8.6455206239bf9339f38e.webp",
+    "static/media/cert-1.webp": "/React-Tailwind-Portfolio-Project/static/media/cert-1.dea57698513461cfedd2.webp",
+    "static/media/cert-6.webp": "/React-Tailwind-Portfolio-Project/static/media/cert-6.8db310443e6577b66101.webp",
+    "static/media/cert-3.webp": "/React-Tailwind-Portfolio-Project/static/media/cert-3.563712f616bd05f890e6.webp",
+    "static/media/cert-5.webp": "/React-Tailwind-Portfolio-Project/static/media/cert-5.5c479fc0d42e242554f7.webp",
     "static/media/linked in logo.webp": "/React-Tailwind-Portfolio-Project/static/media/linked in logo.f851ec1886cf09cb0b67.webp",
+    "static/media/cert-9.webp": "/React-Tailwind-Portfolio-Project/static/media/cert-9.ef4202cf74baeb5a398c.webp",
     "static/media/card-laptop-1.webp": "/React-Tailwind-Portfolio-Project/static/media/card-laptop-1.dc9ab6e9dbf8d2a9776f.webp",
     "static/media/Christian Profile.jpg": "/React-Tailwind-Portfolio-Project/static/media/Christian Profile.40048985324dbf5dcf01.jpg",
     "static/media/facebook.png": "/React-Tailwind-Portfolio-Project/static/media/facebook.01a470d813915c298403.png",
@@ -20,12 +29,12 @@
     "static/media/light mode.webp": "/React-Tailwind-Portfolio-Project/static/media/light mode.172928fddd6a81bc2429.webp",
     "static/media/dark mode.webp": "/React-Tailwind-Portfolio-Project/static/media/dark mode.6541838254b5db648888.webp",
     "static/media/download-icon.webp": "/React-Tailwind-Portfolio-Project/static/media/download-icon.bcdaaca1cf7922a703f2.webp",
-    "main.49d91bb2.css.map": "/React-Tailwind-Portfolio-Project/static/css/main.49d91bb2.css.map",
-    "main.2f037dc9.js.map": "/React-Tailwind-Portfolio-Project/static/js/main.2f037dc9.js.map",
+    "main.2419b01a.css.map": "/React-Tailwind-Portfolio-Project/static/css/main.2419b01a.css.map",
+    "main.d0959bfe.js.map": "/React-Tailwind-Portfolio-Project/static/js/main.d0959bfe.js.map",
     "787.57ab2a38.chunk.js.map": "/React-Tailwind-Portfolio-Project/static/js/787.57ab2a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49d91bb2.css",
-    "static/js/main.2f037dc9.js"
+    "static/css/main.2419b01a.css",
+    "static/js/main.d0959bfe.js"
   ]
 }
