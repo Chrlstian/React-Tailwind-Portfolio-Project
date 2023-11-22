@@ -25,5 +25,21 @@ export default [
         description: "I put my passion and dedication to my first portfolio which is now the old. The small project made me learn github and git to upload it live.",
         icon: githubIcon
     },
+    {
+        id: 4,
+        stack: 'JAVASCRIPT',
+        name: 'Random Quotes Generator',
+        siteLink: "https://chrlstian.github.io/generate-random-quotes/",
+        description: "I put my passion and dedication to my first portfolio which is now the old. The small project made me learn github and git to upload it live.",
+        icon: githubIcon
+    },
+    {
+        id: 5,
+        stack: 'HTML & JAVASCRIPT',
+        name: 'Simple Todo List',
+        siteLink: "https://chrlstian.github.io/simple-todo-list/",
+        description: "I put my passion and dedication to my first portfolio which is now the old. The small project made me learn github and git to upload it live.",
+        icon: githubIcon
+    }
    
 ];

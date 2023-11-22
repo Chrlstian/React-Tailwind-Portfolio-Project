@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router-dom';
 export default function ProjectLayout(props){
 
         // state for the active border to every Link
-        const [activeLink, setActiveLink] = useState('All');
+        const [activeLink, setActiveLink] = useState('Wordpress');
       
         const handleClick = (link) => {
           setActiveLink(link);
@@ -19,10 +19,6 @@ export default function ProjectLayout(props){
             
             <div className='p-4 pt-0 md:pt-0 md:p-8 xl:p-20 xl:pt-0 xl:pb-4 max-w-7xl m-auto'>
                 <div className='flex gap-3 flex-wrap'>
-                    <Link 
-                        className={`p-4 pt-2 pb-2 rounded border-2 text-gray-200 ${activeLink === 'All' ? ' border-btnB bg-primary' : 'bg-primary'}`} 
-                        onClick={() => handleClick('All')} to="all">All
-                    </Link>
                     <Link 
                         className={`p-4 pt-2 pb-2 rounded border-2 text-gray-200 ${activeLink === 'Wordpress' ? 'border-btnB bg-primary' : 'bg-primary'}`} 
                         onClick={() => handleClick('Wordpress')} to="wordpress">Wordpress

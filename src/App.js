@@ -9,7 +9,6 @@ import Works from "./pages/nav/Works";
 import Projects from "./pages/nav/Projects";
 
 // Project Component
-import All from "./components/project/All";
 import Wordpress from "./components/project/wordpress";
 import Html from "./components/project/Html";
 import MernStack from './components/project/MernStack';
@@ -37,10 +36,10 @@ export default function App() {
 
   return (
     <div className={`${lightMode ? 'bg-white' : 'bg-black'}`}>
-    <BrowserRouter basename="/React-Tailwind-Portfolio-Project">
+    <BrowserRouter>
         <Routes>
 
-          <Route path="/" element={<HeaderLayout toggleMode={toggleMode} lightMode={lightMode}/>}>
+          <Route path="/React-Tailwind-Portfolio-Project" element={<HeaderLayout toggleMode={toggleMode} lightMode={lightMode}/>}>
 
             <Route index element={<Home lightMode={lightMode}/>} />  
             <Route path="blogs" element={<Blogs lightMode={lightMode} blogData={blogData}/>} />
@@ -50,7 +49,6 @@ export default function App() {
 
             <Route path="projects" element={<ProjectLayout lightMode={lightMode}/>} >
               <Route index element={<Projects lightMode={lightMode}/>} />
-              <Route path="all" element={<All lightMode={lightMode} />} />
               <Route path="wordpress" element={<Wordpress lightMode={lightMode} />} />
               <Route path="html" element={<Html lightMode={lightMode} />} />
               <Route path="javascript" element={<Javascript lightMode={lightMode} />} />

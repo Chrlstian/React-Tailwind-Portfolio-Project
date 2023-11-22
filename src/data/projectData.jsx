@@ -11,38 +11,6 @@ export default [
     },
     {
         id: 2,
-        stack: 'HTML & CSS',
-        name: 'Capon Piggery & Meat',
-        siteLink: "https://chrlstian.github.io/ChristianCaponProfilePortfolio/PiggeryAndMeat.html",
-        description: "My first website! I made the design and built the site using HTML and CSS to practice what I learned. I want also a piggery business and this is an inspiration for me.",
-        icon: githubIcon
-    },
-    {
-        id: 3,
-        stack: 'HTML & CSS',
-        name: 'Photo Gallery',
-        siteLink: "https://chrlstian.github.io/ChristianCaponProfilePortfolio/philiWonders.html",
-        description: "My second site! I created the site to inpires other people how beautiful and awesome the natures in philippines.",
-        icon: githubIcon
-    },
-    {
-        id: 4,
-        stack: 'JAVASCRIPT',
-        name: 'Simple Calculator',
-        siteLink: "https://chrlstian.github.io/ChristianCaponProfilePortfolio/calculator.html",
-        description: "I made this app to practice using functions and numbers in JavaScript.",
-        icon: githubIcon
-    },
-    {
-        id: 5,
-        stack: 'HTML & CSS & JAVASCRIPT',
-        name: 'My old Portofolio',
-        siteLink: 'https://chrlstian.github.io/ChristianCaponProfilePortfolio/',
-        description: "I put my passion and dedication to my first portfolio which is now the old. The small project made me learn github and git to upload it live.",
-        icon: githubIcon
-    },
-    {
-        id: 6,
         stack: 'WORDPRESS',
         name: 'treecuttingbranchoutservices.ca',
         siteLink: 'https://treecuttingbranchoutservices.ca/',
@@ -50,7 +18,7 @@ export default [
         icon: githubIcon
     },
     {
-        id: 7,
+        id: 3,
         stack: 'WORDPRESS',
         name: 'nationalerc.us',
         siteLink: 'https://nationalerc.us/',
@@ -58,7 +26,7 @@ export default [
         icon: githubIcon
     },
     {
-        id: 8,
+        id: 4,
         stack: 'WORDPRESS',
         name: 'howtofindyoursoul.com',
         siteLink: 'https://howtofindyoursoul.com/',
@@ -66,7 +34,7 @@ export default [
         icon: githubIcon
     },
     {
-        id: 9,
+        id: 5,
         stack: 'WORDPRESS',
         name: 'mycars.jp',
         siteLink: 'https://mycars.jp/',
@@ -74,7 +42,7 @@ export default [
         icon: githubIcon
     },
     {
-        id: 10,
+        id: 6,
         stack: 'WORDPRESS',
         name: 'youdidit.ca',
         siteLink: 'https://youdidit.ca/',
@@ -82,34 +50,12 @@ export default [
         icon: githubIcon
     },
     {
-        id: 11,
+        id: 7,
         stack: 'WORDPRESS',
         name: 'notonyouriphone.com',
         siteLink: 'https://notonyouriphone.com/',
         description: "A landing page to attract onlyfans user. I created the landing page using wordpress and implement some html, css , and Javascript to maximize the design.",
         icon: githubIcon
-    },
-    {
-        id: 12,
-        stack: 'JAVASCRIPT',
-        name: 'The future Ball',
-        siteLink: "https://chrlstian.github.io/ChristianCaponProfilePortfolio/fortune.html",
-        description: "A simple minded AI that can predict your future. I made this app because im bored and also i'm a big fan of AI.",
-        icon: githubIcon
-    },
-    {
-        id: 13,
-        stack: 'HTML & CSS & JAVASCRIPT',
-        name: 'The old Portofolio',
-        siteLink: "https://chrlstian.github.io/ChristianCaponProfilePortfolio/",
-        description: "I put my passion and dedication to my first portfolio which is now the old. The small project made me learn github and git to upload it live.",
-        icon: githubIcon
-    },
-    {
-        id: 14,
-        stack: 'JS, REACT, & TAILWIND',
-        name: 'The New Portfolio',
-        description: "The site is built in to showcase my passion and skills in web development. I used React and Tailwind to build it.",
-        icon: githubIcon
     }
+    
 ];
