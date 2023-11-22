@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import LikeComments from "./blogs/LikeComments";
 
 
@@ -18,7 +18,13 @@ export default function BlogCard(props){
                             <p className={`${props.lightMode ? 'text-primary' : 'text-gray-200'}`}>Christian Benson <br />{props.item.month} . {props.item.time}</p>
                         </div>
                         <h2 className={`font-bold md:text-xl lg:text-3xl xl:text-4xl ${props.lightMode ? 'text-primary' : 'text-gray-200'}`}>{props.item.title}</h2>
-                        <p className="text-txt md:text-lg">{props.item.description}</p>
+                        <p className=" flex flex-wrap text-txt md:text-lg">
+                            {props.item.description}
+                            <Link to={`/blogs/${props.item.id}`}>
+                                <span className={`text-txt underline p-2 pb-1 pt-1 rounded-full hover:text-blue-700 shadow-lg ${props.lightMode ? 'border' : 'bg-primary shadow-primary shadow-sm'}`}>continue reading..</span>
+                            </Link>
+                            {/* <span className="bg-primary text-white p-2 pb-1 pt-1 rounded-full">continue reading..</span> */}
+                        </p>
                         <LikeComments views={props.item.views} comment={props.item.comments}/>
                     </div>
                 </div>

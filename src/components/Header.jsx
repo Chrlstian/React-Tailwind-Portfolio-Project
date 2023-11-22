@@ -21,10 +21,11 @@ export default function Header(props){
                     <div className='flex items-center gap-5'>
                         <nav className={`text-secondary nav-hidden-mobile nav-md-block ${props.lightMode ? 'md:text-primary' : 'md:text-gray-200'}`}>
                             <Link className="hover:text-gray-400 text-xl" to='blogs'>Blogs</Link>
-                            <Link className="hover:text-gray-400 text-xl" to='works-experience'>Work experience</Link>
+                            <Link className="hover:text-gray-400 text-xl" to='works-experience'>Work Experience</Link>
+                            <Link className="hover:text-gray-400 text-xl" to='certificates'>Certificates</Link>
                         </nav>
                         <div className={`cursor-pointer ${props.lightMode ? 'border-black' : 'border-white'}`}>
-                            <img className='w-7 h- rounded-full hover:border' onClick={props.toggleMode} src={props.lightMode ? imgDarkMode : imgLightMode} alt='dark and light mode sun interface' />
+                            <img className='w-7 h-7 rounded-full hover:border' onClick={props.toggleMode} src={props.lightMode ? imgDarkMode : imgLightMode} alt='dark and light mode sun interface' />
                         </div>
                     </div>
                     <div className='cursor-pointer md:hidden' onClick={toggleMenu}>
@@ -58,6 +59,7 @@ export default function Header(props){
                     <nav className={`nav ${props.lightMode ? 'text-txt' : 'text-white'}`}>
                         <Link className="hover:text-gray-700 text-xl" to='blogs'>Blogs</Link>
                         <Link className="hover:text-gray-700 text-xl" to='works-experience'>Work experience</Link>
+                        <Link className="hover:text-gray-700 text-xl" to='certificates'>Certificates</Link>
                     </nav>) : null }
             
             </header>

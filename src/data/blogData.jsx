@@ -10,7 +10,7 @@ export default [
         month: 'March 21',
         time: '1 min',
         title: 'PLAYING THE CODES',
-        description: 'Playing the Codes, a journey into the world of programming where every line of code is...continue reading..',
+        description: 'Playing the Codes, a journey into the world of programming where every line of code is..',
         descriptionIntro: "'Playing the Codes,' a journey into the world of programming where every line of code is a brushstroke on the canvas of logic. In this blog, we'll explore the daily adventures of deciphering syntax, unraveling algorithms, and embracing the beauty of coding. Whether you're a seasoned developer or a curious beginner, join me, in this exploration of the proper way to code.",
         descriptionOne: "Coding is an art, and every artist needs a playground. I'll take you through the concept of coding as a form of play. Discover how to turn your code editor into a canvas where you can experiment, make mistakes, and refine your skills. We'll discuss the importance of understanding syntax and how playful experimentation can deepen your understanding.",
         descriptionTwo: "Theory is essential, but the real magic happens when you start typing. I'll share my experiences of learning by doing – tackling real-world problems, building small projects, and honing your skills through practical application. We'll discuss how hands-on experience is crucial for truly mastering the art of coding.",

@@ -24,6 +24,7 @@ import ProjectLayout from "./components/Layouts/ProjectLayout";
 
 // data/blog Data
 import blogData from "./data/blogData";
+import Certificates from "./pages/nav/Certificates";
 
 export default function App() {
 
@@ -45,6 +46,7 @@ export default function App() {
             <Route path="blogs" element={<Blogs lightMode={lightMode} blogData={blogData}/>} />
             <Route path="works-experience" element={<Works lightMode={lightMode} blogData={blogData}/>} />
             <Route path="blogs/:id" element={<BlogDetails lightMode={lightMode} blogData={blogData}/>} />
+            <Route path="certificates" element={<Certificates lightMode={lightMode} />} />
 
             <Route path="projects" element={<ProjectLayout lightMode={lightMode}/>} >
               <Route index element={<Projects lightMode={lightMode}/>} />

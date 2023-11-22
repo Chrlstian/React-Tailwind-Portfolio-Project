@@ -12,7 +12,7 @@ export default function ExperienceCard(props){
                 <img className="w-7 h-7 rounded-full" src={props.item.icon} alt="github logo" />
             </div>
             <a href={url} target="_blank"  rel="noopener noreferrer" className="text-blue-500 underline md:no-underline md:hover:underline cursor-pointer">
-                <h2 className="font-bold text-gray-200 text-xl">{props.item.name}</h2>
+                <h2 className="font-bold text-gray-200 text-xl"><abbr title="Visit the app">{props.item.name}</abbr></h2>
             </a>
             <p className="text-gray-300 md:text-lg">{props.item.description}</p>
         </div>

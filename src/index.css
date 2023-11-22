@@ -26,7 +26,7 @@ code {
   @apply hidden;
 }
 .nav-md-block {
-  @apply md:block md:gap-5 md:flex;
+  @apply md:visible md:gap-5 md:flex;
 }
 
 /* Hero.jsx button style above 427px screen */
@@ -39,10 +39,7 @@ code {
   @apply bg-white border-2 border-txt hover:border-btnB text-txt py-2 px-7 rounded-full;
 }
 .hero-info {
-  @apply flex flex-col gap-10 p-4 pt-8 h-screen;
-}
-.hero-info-md {
-  @apply md:static md:gap-16;
+  @apply flex flex-col gap-10 p-4 pt-8 ;
 }
 
 /* Hero.jsx md: 768px screen */
@@ -50,7 +47,7 @@ code {
   @apply md:block md:pl-2 md:pr-8 md:pt-8 md:pb-8;
 }
 .heroContainer-md {
-  @apply md:flex md:items-center md:gap-0 md:static;
+  @apply md:flex md:items-center md:gap-0 ;
 }
 
 /* Hero.jsx lg: 1024px screen */

@@ -1,13 +1,9 @@
-
-import { Link } from "react-router-dom";
 import BlogCard from "../../components/BlogCard";
 
 export default function Blogs(props){
     
     const renderBlog =  props.blogData.map(item => (
-        <Link to={`/blogs/${item.id}`}>
-            <BlogCard key={item.id} item={item} lightMode={props.lightMode} />
-        </Link>
+        <BlogCard key={item.id} item={item} lightMode={props.lightMode} />
     ))
 
     return(
