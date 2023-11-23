@@ -30,7 +30,7 @@ export default [
         stack: 'JAVASCRIPT',
         name: 'Random Quotes Generator',
         siteLink: "https://chrlstian.github.io/generate-random-quotes/",
-        description: "I put my passion and dedication to my first portfolio which is now the old. The small project made me learn github and git to upload it live.",
+        description: "The app can generate random quotes data I set in arrays. But I am planning to improve it using API instead of arrays[].",
         icon: githubIcon
     },
     {
@@ -38,7 +38,15 @@ export default [
         stack: 'HTML & JAVASCRIPT',
         name: 'Simple Todo List',
         siteLink: "https://chrlstian.github.io/simple-todo-list/",
-        description: "I put my passion and dedication to my first portfolio which is now the old. The small project made me learn github and git to upload it live.",
+        description: "I build the Simple Todo App to use it in my daily to do activities. ",
+        icon: githubIcon
+    },
+    {
+        id: 6,
+        stack: 'HTML & JAVASCRIPT',
+        name: 'Product Database',
+        siteLink: "https://chrlstian.github.io/product_database/",
+        description: "The app can store data using arrays but if refresh the page the data will be lost. This is only a practice output in learning JS as a beginner. ",
         icon: githubIcon
     }
    

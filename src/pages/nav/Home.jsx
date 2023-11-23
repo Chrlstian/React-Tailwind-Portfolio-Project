@@ -19,8 +19,7 @@ export default function Home(props) {
           className="lg:w-full lg:h-65 xl:pr-20"
           src={require('../../assets/images/Hero-right-profile.webp')}
           alt='Christian Benson B. Capon'
-          loading='lazy'
-        />
+          loading='lazy' />
       </div>
     </div>
   );
