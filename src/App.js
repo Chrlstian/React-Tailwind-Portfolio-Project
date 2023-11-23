@@ -36,10 +36,10 @@ export default function App() {
 
   return (
     <div className={`${lightMode ? 'bg-white' : 'bg-black'}`}>
-    <BrowserRouter>
+    <BrowserRouter basename="React-Tailwind-Portfolio-Project">
         <Routes>
 
-          <Route path="/React-Tailwind-Portfolio-Project" element={<HeaderLayout toggleMode={toggleMode} lightMode={lightMode}/>}>
+          <Route path="/" element={<HeaderLayout toggleMode={toggleMode} lightMode={lightMode}/>}>
 
             <Route index element={<Home lightMode={lightMode}/>} />  
             <Route path="blogs" element={<Blogs lightMode={lightMode} blogData={blogData}/>} />

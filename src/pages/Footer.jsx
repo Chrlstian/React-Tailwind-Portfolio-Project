@@ -1,3 +1,8 @@
+// import fb from '../assets/icons/facebook-logo.svg';
+// import twitter from '../assets/icons/twitter-circled.svg';
+// import mail from '../assets/icons/mail.svg';
+// import github from '../assets/icons/github-logo.svg';
+// import linkedIn from '../assets/icons/linkedin-logo.svg';
 
 export default function Footer(props){
     const currentYear = new Date().getFullYear();

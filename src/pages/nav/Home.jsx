@@ -1,25 +1,11 @@
-import { useState, useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
 import DownloadButton from '../../components/DownloadResume';
 
 export default function Home(props) {
-  const [pageLoaded, setPageLoaded] = useState(false);
-
-  useEffect(() => {
-    const handlePageLoad = () => {
-      setPageLoaded(true);
-    };
-
-    window.addEventListener('load', handlePageLoad);
-
-    return () => {
-      window.removeEventListener('load', handlePageLoad);
-    };
-  }, []);
 
   return (
     <div className={`heroContainer-md ${props.lightMode ? 'bg-white' : 'bg-black'}`}>
-      {!pageLoaded && <p>Loading...</p>}
       <div className='hero-info sm:gap-10 lg:pl-8 xl:p-20 xl:max-w'>
         <h1 className={`font-body text-4xl text-center sm:text-5xl lg:text-start lg:text-6xl ${props.lightMode ? 'text-black md:text-secondary' : 'text-gray-200' }`}>Helping people make the world a better place through quality <span className='text-pink-700'>web solutions.</span></h1>
         <p className='text-center text-txt md:text-lg'>"Hi, I'm Christian, an entry level software developer excited to build amazing things for you."</p>
