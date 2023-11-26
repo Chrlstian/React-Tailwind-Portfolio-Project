@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState,useEffect} from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Pages nav
@@ -34,6 +34,18 @@ export default function App() {
       setLightMode(!lightMode);
   }
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a delay for content loading
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    // Cleanup the timer on component unmount
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className={`${lightMode ? 'bg-white' : 'bg-black'}`}>
     <BrowserRouter basename="React-Tailwind-Portfolio-Project">
@@ -41,11 +53,11 @@ export default function App() {
 
           <Route path="/" element={<HeaderLayout toggleMode={toggleMode} lightMode={lightMode}/>}>
 
-            <Route index element={<Home lightMode={lightMode}/>} />  
+            <Route index element={<Home lightMode={lightMode} loading={loading}/>} />  
             <Route path="blogs" element={<Blogs lightMode={lightMode} blogData={blogData}/>} />
             <Route path="works-experience" element={<Works lightMode={lightMode} blogData={blogData}/>} />
             <Route path="blogs/:id" element={<BlogDetails lightMode={lightMode} blogData={blogData}/>} />
-            <Route path="certificates" element={<Certificates lightMode={lightMode} />} />
+            <Route path="certificates" element={<Certificates lightMode={lightMode} loading={loading}/>} />
 
             <Route path="projects" element={<ProjectLayout lightMode={lightMode}/>} >
               <Route index element={<Projects lightMode={lightMode}/>} />
