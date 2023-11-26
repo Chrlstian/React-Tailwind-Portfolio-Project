@@ -19,9 +19,9 @@ export default function BlogDetails(props){
         setBlog(blogData);
     }, [id, props.blogData]);
 
-    if (!blog) {
-        return <div>Loading...</div>;
-    }
+    // if (!blog) {
+    //     return <div>Loading...</div>;
+    // }
 
     return(
         <>

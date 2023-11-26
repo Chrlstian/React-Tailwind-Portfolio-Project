@@ -23,7 +23,6 @@ export default function BlogCard(props){
                             <Link to={`/blogs/${props.item.id}`}>
                                 <span className={`text-txt underline p-2 pb-1 pt-1 rounded-full hover:text-blue-700 shadow-lg ${props.lightMode ? 'border' : 'bg-primary shadow-primary shadow-sm'}`}>continue reading..</span>
                             </Link>
-                            {/* <span className="bg-primary text-white p-2 pb-1 pt-1 rounded-full">continue reading..</span> */}
                         </p>
                         <LikeComments views={props.item.views} comment={props.item.comments}/>
                     </div>

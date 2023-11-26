@@ -3,7 +3,7 @@ import downloadIcon from '../assets/images/download-icon.webp';
 
 const DownloadButton = () => {
   const handleDownload = async () => {
-    const pdfUrl = '../assets/resumePdf/christianbensoncapon.pdf'; // Update this with the correct path
+    const pdfUrl = '../assets/images/resumePdf/christianbensoncapon.pdf'; // Update this with the correct path
 
     try {
       const response = await fetch(pdfUrl);
