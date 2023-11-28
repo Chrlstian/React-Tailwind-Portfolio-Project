@@ -1,4 +1,3 @@
-import githubIcon from '../assets/images/github logo.webp';
 
 export default [
     {
@@ -7,7 +6,7 @@ export default [
         name: 'edivalve.com',
         siteLink: 'https://edivalve.com/',
         description: 'I designed and developed the Edivalve website using WordPress and Elementor. Edivalve is an American ball valve technology business.',
-        icon: githubIcon
+        icon: false
     },
     {
         id: 2,
@@ -15,7 +14,7 @@ export default [
         name: 'treecuttingbranchoutservices.ca',
         siteLink: 'https://treecuttingbranchoutservices.ca/',
         description: "Developed the website for an American tree removal company, treecuttingbranchservices.ca, from scratch, following the client's reference design.",
-        icon: githubIcon
+        icon: false
     },
     {
         id: 3,
@@ -23,7 +22,7 @@ export default [
         name: 'nationalerc.us',
         siteLink: 'https://nationalerc.us/',
         description: "Designed and developed an ERC website, incorporating user-friendly features and seamless navigation. Created with a focus on clear communication and a visually appealing interface.",
-        icon: githubIcon
+        icon: false
     },
     {
         id: 4,
@@ -31,7 +30,7 @@ export default [
         name: 'howtofindyoursoul.com',
         siteLink: 'https://howtofindyoursoul.com/',
         description: "The website that promote the book and a course about happiness, love, mental health and your nature",
-        icon: githubIcon
+        icon: false
     },
     {
         id: 5,
@@ -39,7 +38,7 @@ export default [
         name: 'mycars.jp',
         siteLink: 'https://mycars.jp/',
         description: "Created a transportation service website for a Japanese client, adhering to the provided mock-up design.",
-        icon: githubIcon
+        icon: false
     },
     {
         id: 6,
@@ -47,7 +46,7 @@ export default [
         name: 'youdidit.ca',
         siteLink: 'https://youdidit.ca/',
         description: "A website for all people in the world who are trying to stop addiction, so they can talk to and support each other. They can also post there improvement.",
-        icon: githubIcon
+        icon: false
     },
     {
         id: 7,
@@ -55,7 +54,7 @@ export default [
         name: 'notonyouriphone.com',
         siteLink: 'https://notonyouriphone.com/',
         description: "A landing page to attract onlyfans user. I created the landing page using wordpress and implement some html, css , and Javascript to maximize the design.",
-        icon: githubIcon
+        icon: false
     }
     
 ];

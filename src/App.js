@@ -40,7 +40,7 @@ export default function App() {
     // Simulate a delay for content loading
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 3000);
 
     // Cleanup the timer on component unmount
     return () => clearTimeout(timer);
