@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Tailwind-Portfolio-Project/static/css/main.2e8b9426.css",
-    "main.js": "/React-Tailwind-Portfolio-Project/static/js/main.07c0f9b6.js",
+    "main.css": "/React-Tailwind-Portfolio-Project/static/css/main.75f4b3e0.css",
+    "main.js": "/React-Tailwind-Portfolio-Project/static/js/main.6be3c0d4.js",
     "static/js/787.57ab2a38.chunk.js": "/React-Tailwind-Portfolio-Project/static/js/787.57ab2a38.chunk.js",
     "static/media/christianbensoncapon.pdf": "/React-Tailwind-Portfolio-Project/static/media/christianbensoncapon.96ad3a14e68fc8cdc643.pdf",
     "static/media/Hero-right-profile.webp": "/React-Tailwind-Portfolio-Project/static/media/Hero-right-profile.2be94c4baf73d44ee52f.webp",
@@ -29,12 +29,12 @@
     "index.html": "/React-Tailwind-Portfolio-Project/index.html",
     "static/media/light mode.webp": "/React-Tailwind-Portfolio-Project/static/media/light mode.172928fddd6a81bc2429.webp",
     "static/media/dark mode.webp": "/React-Tailwind-Portfolio-Project/static/media/dark mode.6541838254b5db648888.webp",
-    "main.2e8b9426.css.map": "/React-Tailwind-Portfolio-Project/static/css/main.2e8b9426.css.map",
-    "main.07c0f9b6.js.map": "/React-Tailwind-Portfolio-Project/static/js/main.07c0f9b6.js.map",
+    "main.75f4b3e0.css.map": "/React-Tailwind-Portfolio-Project/static/css/main.75f4b3e0.css.map",
+    "main.6be3c0d4.js.map": "/React-Tailwind-Portfolio-Project/static/js/main.6be3c0d4.js.map",
     "787.57ab2a38.chunk.js.map": "/React-Tailwind-Portfolio-Project/static/js/787.57ab2a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e8b9426.css",
-    "static/js/main.07c0f9b6.js"
+    "static/css/main.75f4b3e0.css",
+    "static/js/main.6be3c0d4.js"
   ]
 }
