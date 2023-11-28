@@ -1,5 +1,5 @@
 
-export default [
+const wordpressData = [
     {
         id: 1,
         stack: 'WORDPRESS',
@@ -58,3 +58,5 @@ export default [
     }
     
 ];
+
+export default wordpressData;

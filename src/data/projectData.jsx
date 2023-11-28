@@ -1,6 +1,6 @@
 import githubIcon from '../assets/images/github logo.webp';
 
-export default [
+const projectData = [
     {
         id: 1,
         stack: 'WORDPRESS',
@@ -59,3 +59,4 @@ export default [
     }
     
 ];
+export default projectData;

@@ -1,6 +1,6 @@
 import githubIcon from '../assets/images/github logo.webp';
 
-export default [
+const htmlData = [
     {
         id: 1,
         stack: 'HTML & CSS',
@@ -30,3 +30,5 @@ export default [
     }
    
 ];
+
+export default htmlData;

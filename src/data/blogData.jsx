@@ -3,7 +3,7 @@ import imgCardProfile from '../assets/images/Christian Profile.jpg';
 import imgCardBanner from '../assets/images/card-laptop-1.webp';
 import imgCardBanner1 from '../assets/images/card-laptop-2.webp';
 
-export default [
+const blogData = [
     {
         id: 1,
         profile: imgCardProfile,
@@ -59,3 +59,5 @@ export default [
         imgBanner: imgCardBanner1
     }
   ];
+
+  export default blogData;

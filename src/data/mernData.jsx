@@ -1,6 +1,6 @@
 import githubIcon from '../assets/images/github logo.webp';
 
-export default [
+const mernData = [
     {
         id: 1,
         stack: 'JS, REACT, & TAILWIND',
@@ -11,3 +11,5 @@ export default [
         gitHub: 'https://github.com/Chrlstian/React-Tailwind-Portfolio-Project'
     }
 ];
+
+export default mernData;

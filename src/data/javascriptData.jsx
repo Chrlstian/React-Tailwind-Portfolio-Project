@@ -1,6 +1,6 @@
 import githubIcon from '../assets/images/github logo.webp';
 
-export default [
+const javascriptData = [
     {
         id: 1,
         stack: 'JAVASCRIPT',
@@ -66,3 +66,5 @@ export default [
     }
    
 ];
+
+export default javascriptData;

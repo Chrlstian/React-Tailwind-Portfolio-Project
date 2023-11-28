@@ -9,7 +9,7 @@ import cert7 from '../assets/images/certificates/cert-7.webp';
 import cert8 from '../assets/images/certificates/cert-8.webp';
 import cert9 from '../assets/images/certificates/cert-9.webp';
 
-export default [
+const certificatesData =  [
     {
         id: 1,
         img: cert1,
@@ -57,3 +57,5 @@ export default [
     }
 
 ];
+
+export default certificatesData;
