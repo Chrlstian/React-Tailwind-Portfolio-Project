@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/christianbensoncapon/static/css/main.056c64a6.css",
+    "main.css": "/christianbensoncapon/static/css/main.75f4b3e0.css",
     "main.js": "/christianbensoncapon/static/js/main.20dcd461.js",
     "static/js/787.57ab2a38.chunk.js": "/christianbensoncapon/static/js/787.57ab2a38.chunk.js",
     "static/media/christianbensoncapon.pdf": "/christianbensoncapon/static/media/christianbensoncapon.96ad3a14e68fc8cdc643.pdf",
@@ -29,12 +29,12 @@
     "static/media/light mode.webp": "/christianbensoncapon/static/media/light mode.172928fddd6a81bc2429.webp",
     "index.html": "/christianbensoncapon/index.html",
     "static/media/dark mode.webp": "/christianbensoncapon/static/media/dark mode.6541838254b5db648888.webp",
-    "main.056c64a6.css.map": "/christianbensoncapon/static/css/main.056c64a6.css.map",
+    "main.75f4b3e0.css.map": "/christianbensoncapon/static/css/main.75f4b3e0.css.map",
     "main.20dcd461.js.map": "/christianbensoncapon/static/js/main.20dcd461.js.map",
     "787.57ab2a38.chunk.js.map": "/christianbensoncapon/static/js/787.57ab2a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.056c64a6.css",
+    "static/css/main.75f4b3e0.css",
     "static/js/main.20dcd461.js"
   ]
 }
