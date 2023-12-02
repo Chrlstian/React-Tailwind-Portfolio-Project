@@ -37,7 +37,7 @@ const blogData = [
         profile: imgCardProfile,
         month: 'March 21',
         time: '2 min',
-        title: "A Day in the Life of a Poor Developer: Overcoming Challenges and Embracing Growth",
+        title: "A Day in the Life of a Poor Developer",
         description: "Hey there, fellow developers and curious minds! I'm Christian, an entry-level front-end developer,",
         descriptionIntro: "Hey there, fellow developers and curious minds! I'm Christian, an entry-level front-end developer, and today I want to share a bit of my journey with you. Life hasn't always been a smooth ride, especially for a poor developer like me, but I've learned that challenges are just opportunities in disguise.",
         descriptionOne: "Back in my college days, I found myself enrolled in a computer science course, not because I was a tech whiz, but because it was the only available option. Little did I know that this decision would shape my future in ways I couldn't have imagined. On the first day of programming class, my instructor made it clear - computer science was no walk in the park. He discouraged those lacking skills and problem-solving abilities, urging them to shift to another path. It was a tough love moment that stuck with me.",

@@ -3,7 +3,7 @@
 import resume from '../assets/resumePdf/christianbensoncapon.pdf';
 import React from 'react';
 
-export default function DownloadButton(){
+export default function ViewResume(){
    
     const openResume = window.open = resume;
 

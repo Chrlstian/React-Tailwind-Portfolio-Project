@@ -48,7 +48,7 @@ export default function App() {
 
   return (
     <div className={`${lightMode ? 'bg-white' : 'bg-black'}`}>
-    <BrowserRouter basename="christianbensoncapon">
+    <BrowserRouter basename="/christianbensoncapon">
         <Routes>
 
           <Route path="/" element={<HeaderLayout toggleMode={toggleMode} lightMode={lightMode}/>}>
