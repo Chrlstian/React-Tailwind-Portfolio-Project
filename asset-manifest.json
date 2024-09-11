@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/christianbensoncapon/static/css/main.c7586763.css",
-    "main.js": "/christianbensoncapon/static/js/main.3367e56e.js",
+    "main.js": "/christianbensoncapon/static/js/main.872fd5c5.js",
     "static/js/787.57ab2a38.chunk.js": "/christianbensoncapon/static/js/787.57ab2a38.chunk.js",
     "static/media/jertian app.png": "/christianbensoncapon/static/media/jertian app.bc7f5f1bf6cb56774bc8.png",
     "static/media/treecuttingservices.webp": "/christianbensoncapon/static/media/treecuttingservices.b5b73278783220942846.webp",
@@ -31,11 +31,11 @@
     "static/media/light mode.webp": "/christianbensoncapon/static/media/light mode.172928fddd6a81bc2429.webp",
     "static/media/dark mode.webp": "/christianbensoncapon/static/media/dark mode.6541838254b5db648888.webp",
     "main.c7586763.css.map": "/christianbensoncapon/static/css/main.c7586763.css.map",
-    "main.3367e56e.js.map": "/christianbensoncapon/static/js/main.3367e56e.js.map",
+    "main.872fd5c5.js.map": "/christianbensoncapon/static/js/main.872fd5c5.js.map",
     "787.57ab2a38.chunk.js.map": "/christianbensoncapon/static/js/787.57ab2a38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7586763.css",
-    "static/js/main.3367e56e.js"
+    "static/js/main.872fd5c5.js"
   ]
 }
