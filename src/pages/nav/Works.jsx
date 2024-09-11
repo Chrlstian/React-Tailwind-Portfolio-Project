@@ -12,7 +12,7 @@ const work = [
         title: 'Automation Developer at Rise Talent',
         date: 'March - August 2024',
         location: 'Chicago City',
-        description: 'Collaborated with the boss to design and develop a desktop web automation application for automating twitter. Utilized HTML, CSS, Javascript, ElectronJS, Puppeteer, and NodeJs  to create an interactive and user-friendly interface. Ensured the application was responsive and optimized for various devices and work efficiently.',
+        description: 'Collaborated with the boss to design and develop a desktop web automation application for automating twitter. Utilized HTML, CSS, Javascript, ElectronJS, Puppeteer, and NodeJs  to create an interactive and user-friendly interface. Ensured the application was responsive and optimized for various devices and work efficiently. Created chrome extensions for instagram and twitter/X.',
         img: imgWorkCard1,
         url: 'Desktop application No Website URL'
 
