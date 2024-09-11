@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/christianbensoncapon/static/css/main.c7586763.css",
-    "main.js": "/christianbensoncapon/static/js/main.16eda840.js",
+    "main.js": "/christianbensoncapon/static/js/main.3367e56e.js",
     "static/js/787.57ab2a38.chunk.js": "/christianbensoncapon/static/js/787.57ab2a38.chunk.js",
-    "static/media/christianbensoncapon.pdf": "/christianbensoncapon/static/media/christianbensoncapon.9952efd378040d217636.pdf",
-    "static/media/Hero-right-profile.webp": "/christianbensoncapon/static/media/Hero-right-profile.2be94c4baf73d44ee52f.webp",
+    "static/media/jertian app.png": "/christianbensoncapon/static/media/jertian app.bc7f5f1bf6cb56774bc8.png",
     "static/media/treecuttingservices.webp": "/christianbensoncapon/static/media/treecuttingservices.b5b73278783220942846.webp",
+    "static/media/Hero-right-profile.webp": "/christianbensoncapon/static/media/Hero-right-profile.a7c630398da0ec8e2aba.webp",
     "static/media/card-laptop-2.webp": "/christianbensoncapon/static/media/card-laptop-2.e4325054930b450b26c6.webp",
+    "static/media/christianbensoncapon.pdf": "/christianbensoncapon/static/media/christianbensoncapon.d2bc8a26cc1cfd149024.pdf",
     "static/media/edivalve.webp": "/christianbensoncapon/static/media/edivalve.f018caf10c23bb2978c5.webp",
     "static/media/cert-7.webp": "/christianbensoncapon/static/media/cert-7.64cc1218e7656f9c53a4.webp",
     "static/media/cert-4.webp": "/christianbensoncapon/static/media/cert-4.29bf428831d0bb2d7921.webp",
@@ -30,11 +31,11 @@
     "static/media/light mode.webp": "/christianbensoncapon/static/media/light mode.172928fddd6a81bc2429.webp",
     "static/media/dark mode.webp": "/christianbensoncapon/static/media/dark mode.6541838254b5db648888.webp",
     "main.c7586763.css.map": "/christianbensoncapon/static/css/main.c7586763.css.map",
-    "main.16eda840.js.map": "/christianbensoncapon/static/js/main.16eda840.js.map",
+    "main.3367e56e.js.map": "/christianbensoncapon/static/js/main.3367e56e.js.map",
     "787.57ab2a38.chunk.js.map": "/christianbensoncapon/static/js/787.57ab2a38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7586763.css",
-    "static/js/main.16eda840.js"
+    "static/js/main.3367e56e.js"
   ]
 }
