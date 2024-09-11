@@ -4,14 +4,23 @@ const javascriptData = [
     {
         id: 1,
         stack: 'JAVASCRIPT',
-        name: 'Jertian Bot',
-        siteLink: "https://chrlstian.github.io/ChristianCaponProfilePortfolio/calculator.html",
-        description: "The app is an chrome extension that can automate the twitter like. This are the functionality auto like, target account name, min and max interval by seconds, and save options.  ",
+        name: 'Instagram auto-liking bot',
+        siteLink: "https://github.com/Chrlstian/insta-auto-like",
+        description: "The app is an chrome extension that can automate the instagram like. This are the functionality auto like, target account name, min and max interval by seconds, and save options.  ",
         icon: githubIcon,
-        gitHub: 'https://github.com/Chrlstian/Secret-project-automation'
+        gitHub: 'https://github.com/Chrlstian/insta-auto-like'
     },
     {
         id: 2,
+        stack: 'JAVASCRIPT',
+        name: 'Twitter auto-liking bot',
+        siteLink: "https://github.com/Chrlstian/Auto-liking-Chrome-Extension-",
+        description: "The app is an chrome extension that can automate the twitter like. This are the functionality auto like, target account name, min and max interval by seconds, and save options.  ",
+        icon: githubIcon,
+        gitHub: 'https://github.com/Chrlstian/Auto-liking-Chrome-Extension-'
+    },
+    {
+        id: 3,
         stack: 'JAVASCRIPT',
         name: 'Simple Calculator',
         siteLink: "https://chrlstian.github.io/ChristianCaponProfilePortfolio/calculator.html",
@@ -20,7 +29,7 @@ const javascriptData = [
         gitHub: 'https://github.com/Chrlstian/ChristianCaponProfilePortfolio/blob/main/js/calculator.js'
     },
     {
-        id: 3,
+        id: 4,
         stack: 'JAVASCRIPT',
         name: 'The future Ball',
         siteLink: "https://chrlstian.github.io/ChristianCaponProfilePortfolio/fortune.html",
@@ -29,7 +38,7 @@ const javascriptData = [
         gitHub: 'https://github.com/Chrlstian/ChristianCaponProfilePortfolio/blob/main/js/fortune.js'
     },
     {
-        id: 4,
+        id: 5,
         stack: 'HTML & CSS & JAVASCRIPT',
         name: 'The old Portofolio',
         siteLink: "https://chrlstian.github.io/ChristianCaponProfilePortfolio/",
@@ -38,7 +47,7 @@ const javascriptData = [
         gitHub: 'https://github.com/Chrlstian/ChristianCaponProfilePortfolio'
     },
     {
-        id: 5,
+        id: 6,
         stack: 'JAVASCRIPT',
         name: 'Random Quotes Generator',
         siteLink: "https://chrlstian.github.io/generate-random-quotes/",
@@ -47,7 +56,7 @@ const javascriptData = [
         gitHub: 'https://github.com/Chrlstian/generate-random-quotes'
     },
     {
-        id: 6,
+        id: 7,
         stack: 'HTML & JAVASCRIPT',
         name: 'Simple Todo List',
         siteLink: "https://chrlstian.github.io/simple-todo-list/",
@@ -56,7 +65,7 @@ const javascriptData = [
         gitHub: 'https://github.com/Chrlstian/simple-todo-list'
     },
     {
-        id: 7,
+        id: 8,
         stack: 'HTML & JAVASCRIPT',
         name: 'Product Database',
         siteLink: "https://chrlstian.github.io/product_database/",

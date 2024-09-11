@@ -26,9 +26,9 @@ const blogData = [
         titleFive: '5. Code Reviews and Collaborative Play',
         titleSix: '6. Staying Curious',
         titleConclusion: 'Conclusion',
-        views: '16',
-        comments: '4',
-        likes: 16,
+        views: '10k ',
+        comments: '1k ',
+        likes: 100,
         imgLike: false,
         imgBanner: imgCardBanner
     },
@@ -52,9 +52,9 @@ const blogData = [
         titleFour: "Fast Forward: Graduation and Beyond",
         titleFive: "A Message to Struggling Developers: You've Got This!",
         titleConclusion: 'Conclusion',
-        views: '41',
-        comments: '10',
-        likes: 24,
+        views: '4M ',
+        comments: '1M ',
+        likes: 500,
         imgLike: false,
         imgBanner: imgCardBanner1
     }
